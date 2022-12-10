@@ -5,7 +5,8 @@
 //  Going back to just a simple hello world for now...
 //
 //  JM-Change001 - adding a variable to use in the print statrment.
-//  JM-Change002 - Add another variable
+//  JM-Change002 - Add another variable.
+//  JM-Change003 - Can we use numbers?
 //
 //////////////////////////////////////////////////////////////////
 public class baseHelloWorld {
@@ -22,6 +23,9 @@ public class baseHelloWorld {
         String mySpacer = "\n\n\n\n\n\n";
         System.out.println(mySpacer);
         System.out.println(myMessage);
+        System.out.println(5);
+        System.out.println("My favorite number is:");
+        System.out.println(7);
         System.out.println(mySpacer);
     }
 } 
