@@ -1,10 +1,12 @@
 // Create hello world program
+//////////////////////////////////////////////////////////////////
+//
+//  Date Written: 12/10/2022    By: Joseph P. Merten
+//  Going back to just a simple hello world for now...
+//
+//////////////////////////////////////////////////////////////////
 public class baseHelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
-        System.out.println("Hello people!\nHello RoboHawks");
-        System.out.println("Hello Kaitlyn");
-        System.out.println("Yay it works ");
-        System.out.println("HELLO Kit Kats!!!!!!! those toe beans are lookin might tasty");
     }
 } 
