@@ -5,6 +5,7 @@
 //  Going back to just a simple hello world for now...
 //
 //  JM-Change001 - adding a variable to use in the print statrment.
+//  JM-Change002 - Add another variable
 //
 //////////////////////////////////////////////////////////////////
 public class baseHelloWorld {
@@ -18,6 +19,9 @@ public class baseHelloWorld {
         //
         //////////////////////////////////////////////////////////////////
         String myMessage = "Hello World";
+        String mySpacer = "\n\n\n\n\n\n";
+        System.out.println(mySpacer);
         System.out.println(myMessage);
+        System.out.println(mySpacer);
     }
 } 
