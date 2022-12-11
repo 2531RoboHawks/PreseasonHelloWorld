@@ -7,7 +7,8 @@
 //  JM-Change001 - adding a variable to use in the print statrment.
 //  JM-Change002 - Add another variable.
 //  JM-Change003 - Can we use numbers?
-//  JM-Change004 - Happy Holidays
+//  JM-Change004 - Happy Holidays.
+//  JM-Change005 - Back to numbers...
 //
 //////////////////////////////////////////////////////////////////
 public class baseHelloWorld {
@@ -20,25 +21,16 @@ public class baseHelloWorld {
         //  In this case we're defining a string variable.
         //
         //////////////////////////////////////////////////////////////////
-        String myMessage = "Happy Holidays";
-        String mySpacer = "\n\n\n\n\n\n";
-        String myHMsg1 = "         |\n        -+-\n         A\n";
-        String myHMsg2 = "        /=\\               /\\  /\\    ___  _ __  _ __ __    __\n";
-        String myHMsg3 = "      i/ O \\i            /  \\/  \\  / _ \\| '__|| '__|\\ \\  / /\n";
-        String myHMsg4 = "      /=====\\           / /\\  /\\ \\|  __/| |   | |    \\ \\/ /\n";
-        String myHMsg5 = "      /  i  \\           \\ \\ \\/ / / \\___/|_|   |_|     \\  /\n";
-        String myHMsg6 = "    i/ O * O \\i                                       / /\n";
-        String myHMsg7 = "    /=========\\        __  __                        /_/    _\n";
-        String myHMsg8 = "    /  *   *  \\        \\ \\/ /        /\\  /\\    __ _  ____  | |\n";
-        String myHMsg9 = "  i/ O   i   O \\i       \\  /   __   /  \\/  \\  / _` |/ ___\\ |_|\n";
-        String myHMsg10 = "  /=============\\       /  \\  |__| / /\\  /\\ \\| (_| |\\___ \\  _\n";
-        String myHMsg11 = "  /  O   i   O  \\      /_/\\_\\      \\ \\ \\/ / / \\__,_|\\____/ |_|\n";
-        String myHMsg12 = "i/ *   O   O   * \\i\n/=================\\\n       |___|";
-        String myHMsg = myHMsg1 + myHMsg2 + myHMsg3 + myHMsg4 + myHMsg5 + myHMsg6 + myHMsg7 + myHMsg8 + 
-            myHMsg9 + myHMsg10 + myHMsg11 + myHMsg12;
+        String mySpacer = "\n\n\n\n\n";
+        int myFavoriteNumber = 7;
+        int mySeclndFav = 11;
         System.out.println(mySpacer);
-        System.out.println(myMessage);
-        System.out.println(myHMsg);
-        // System.out.println(mySpacer);
+        System.out.println("My Favoriet number:");
+        System.out.println(myFavoriteNumber);
+        System.out.println("My next favoriet number:");
+        System.out.println(mySeclndFav);
+        System.out.println("Multiply them together:");
+        System.out.println(myFavoriteNumber * mySeclndFav);
+        System.out.println(mySpacer);
     }
 } 
