@@ -7,7 +7,7 @@
 //  JM-Change001 - adding a variable to use in the print statrment.
 //  JM-Change002 - Add another variable.
 //  JM-Change003 - Can we use numbers?
-//  JM-Change004 - Happy Hlidays
+//  JM-Change004 - Happy Holidays
 //
 //////////////////////////////////////////////////////////////////
 public class baseHelloWorld {
