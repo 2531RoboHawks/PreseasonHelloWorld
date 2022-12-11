@@ -9,6 +9,7 @@
 //  JM-Change003 - Can we use numbers?
 //  JM-Change004 - Happy Holidays.
 //  JM-Change005 - Back to numbers...
+//  JM-Change006 - Looping!
 //
 //////////////////////////////////////////////////////////////////
 public class baseHelloWorld {
@@ -22,15 +23,13 @@ public class baseHelloWorld {
         //
         //////////////////////////////////////////////////////////////////
         String mySpacer = "\n\n\n\n\n";
-        int myFavoriteNumber = 7;
-        int mySeclndFav = 11;
+        int maxCounter = 7;
         System.out.println(mySpacer);
-        System.out.println("My Favoriet number:");
-        System.out.println(myFavoriteNumber);
-        System.out.println("My next favoriet number:");
-        System.out.println(mySeclndFav);
-        System.out.println("Multiply them together:");
-        System.out.println(myFavoriteNumber * mySeclndFav);
+        for(int i=1;i<=maxCounter;i++)
+        {
+            System.out.println("Now we're at:");
+            System.out.println(i);
+        }
         System.out.println(mySpacer);
     }
 } 
